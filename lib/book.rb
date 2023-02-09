@@ -8,7 +8,9 @@ class Book
         @title = title
     end
 
-
+    def turn_page (turn_page)
+        @turn_page= turn_page
+    end
 end
 
 #binding.pry
