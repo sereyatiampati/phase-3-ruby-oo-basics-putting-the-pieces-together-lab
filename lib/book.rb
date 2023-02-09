@@ -6,14 +6,9 @@ class Book
 
     def initialize (title= "And Then There Were None")
         @title = title
-        # @author=author
-        # @pages=pages
-        # @genre=genre
     end
 
-    def turn_page (turn_page)
-        @turn_page= turn_page
-    end
+
 end
 
 #binding.pry
