@@ -2,7 +2,7 @@
 
 class Book
 
-    attr_accessor :title, :page_count, :author, :genre :turn_page
+    attr_accessor :title, :page_count, :author, :genre, :turn_page
 
     def initialize (title= "And Then There Were None")
         @title = title
